@@ -7,10 +7,10 @@
             //Dealer and player now take turns on who decides first
             //added devmode, fixed the system for determining who wins
             int playersum = 0;
-            int guy = 0;
+            int GameOngoing = 0;
             int turn = 0;
             int dealersum = 0;
-            while (guy == 0)
+            while (GameOngoing == 0)
             {
                 if (turn == 0)
                 {
@@ -22,8 +22,8 @@
                     Console.WriteLine("Dealer has " + dealersum);
                     Console.WriteLine("");
                     Console.WriteLine("Roll or stay?");
-                    string svar = Console.ReadLine();
-                    if (svar == "roll")
+                    string answer = Console.ReadLine();
+                    if (answer == "roll")
                     {
                         turn = 1;
                         Random rand = new Random();
@@ -59,7 +59,7 @@
                             }
                         }
                     }
-                    else if (svar == "stay")
+                    else if (answer == "stay")
                     {
                         turn = 1;
                         Console.WriteLine("You stayed");
@@ -95,16 +95,16 @@
                                 {
                                     Console.WriteLine("Dealer stayed");
                                     Console.WriteLine("Dealer has " + dealersum);
-                                    guy = 1;
+                                    GameOngoing = 1;
                                 }
                             }
                         }
                         else
                         {
-                            guy = 1;
+                            GameOngoing = 1;
                         }
                     }
-                    else if (svar == "devmode")
+                    else if (answer == "devmode")
                     {
                         Console.WriteLine("What would you like to do?");
                         Console.WriteLine("");
@@ -120,45 +120,45 @@
                         Console.WriteLine("");
                         Console.WriteLine("Make both lose = 6");
                         Console.WriteLine("");
-                        int littleguy = int.Parse(Console.ReadLine());
-                        if (littleguy == 1)
+                        int answer2 = int.Parse(Console.ReadLine());
+                        if (answer2 == 1)
                         {
-                            guy = 1;
+                            GameOngoing = 1;
                             Console.WriteLine("[Ended game]");
                         }
-                        else if (littleguy == 2)
+                        else if (answer2 == 2)
                         {
                             dealersum = 21;
                             Console.WriteLine("[Set dealersum to 21]");
                         }
-                        else if (littleguy == 3)
+                        else if (answer2 == 3)
                         {
                             playersum = 21;
                             Console.WriteLine("[Set playersum to 21]");
                         }
-                        else if (littleguy == 4)
+                        else if (answer2 == 4)
                         {
                             playersum = 21;
                             dealersum = 0;
-                            guy = 1;
+                            GameOngoing = 1;
                             Console.WriteLine("[Set playersum to 21]");
                             Console.WriteLine("[Set dealersum to 0]");
                             Console.WriteLine("[Ended game]");
                         }
-                        else if (littleguy == 5)
+                        else if (answer2 == 5)
                         {
                             dealersum = 21;
                             playersum = 0;
-                            guy = 1;
+                            GameOngoing = 1;
                             Console.WriteLine("[Set dealersum to 21]");
                             Console.WriteLine("[Set playersum to 0]");
                             Console.WriteLine("[Ended game]");
                         }
-                        else if (littleguy == 6)
+                        else if (answer2 == 6)
                         {
                             dealersum = 22;
                             playersum = 22;
-                            guy = 1;
+                            GameOngoing = 1;
                             Console.WriteLine("[Set dealersum to 22]");
                             Console.WriteLine("[Set playersum to 22]");
                             Console.WriteLine("[Ended game]");
@@ -221,7 +221,7 @@
                                 {
                                     Console.WriteLine("You stayed");
                                     Console.WriteLine("You have " + playersum);
-                                    guy = 1;
+                                    GameOngoing = 1;
                                 }
                                 else if (rollanswer == "roll")
                                 {
@@ -267,14 +267,14 @@
                                 Console.WriteLine("Dealer has " + dealersum);
                                 turn = 0;
                                 Console.WriteLine("Would you like to roll or stay?");
-                                string bigballsackanswer = Console.ReadLine();
-                                if (bigballsackanswer == "stay")
+                                string answer3 = Console.ReadLine();
+                                if (answer3 == "stay")
                                 {
                                     Console.WriteLine("You stayed");
                                     Console.WriteLine("You have " + playersum);
-                                    guy = 1;
+                                    GameOngoing = 1;
                                 }
-                                else if (bigballsackanswer == "roll")
+                                else if (answer3 == "roll")
                                 {
                                     Random rand = new Random();
                                     int playerthrow = rand.Next(1, 7);
@@ -290,7 +290,7 @@
                     }
                     else
                     {
-                        guy = 1;
+                        GameOngoing = 1;
                     }
                 }
             }
