@@ -1,0 +1,14 @@
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\bin\Debug\net8.0\DiceGameFinished.exe
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\bin\Debug\net8.0\DiceGameFinished.deps.json
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\bin\Debug\net8.0\DiceGameFinished.runtimeconfig.json
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\bin\Debug\net8.0\DiceGameFinished.dll
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\bin\Debug\net8.0\DiceGameFinished.pdb
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\obj\Debug\net8.0\DiceGameFinished.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\obj\Debug\net8.0\DiceGameFinished.AssemblyInfoInputs.cache
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\obj\Debug\net8.0\DiceGameFinished.AssemblyInfo.cs
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\obj\Debug\net8.0\DiceGameFinished.csproj.CoreCompileInputs.cache
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\obj\Debug\net8.0\DiceGameFinished.dll
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\obj\Debug\net8.0\refint\DiceGameFinished.dll
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\obj\Debug\net8.0\DiceGameFinished.pdb
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\obj\Debug\net8.0\DiceGameFinished.genruntimeconfig.cache
+C:\Users\leon.bergestra\Desktop\Programmering\DiceGameFinished\DiceGameFinished\obj\Debug\net8.0\ref\DiceGameFinished.dll
