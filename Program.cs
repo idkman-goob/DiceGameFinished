@@ -6,7 +6,6 @@
         {
             //Dealer and player now take turns on who decides first
             //added devmode, fixed the system for determining who wins
-            //sigma!!
             int playersum = 0;
             int guy = 0;
             int turn = 0;
